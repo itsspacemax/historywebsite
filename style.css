@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "EasyReading";
-  src: url("fonts/EasyReading.ttf");
-}
-
 body {
-  font-family: "EasyReading";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #444;

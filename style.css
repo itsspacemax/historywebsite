@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #444;
+  color: #964b00;
   background-color: #fff;
 }
 
@@ -25,12 +25,12 @@ img {
 }
 
 a {
-  color: #444;
+  color: #964b00;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ccc;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -46,4 +46,60 @@ a:hover {
   h2 {
     font-size: 18px;
   }
+}
+
+/* Sezione: Storia */
+
+.storia {
+  background-color: #ccc;
+}
+
+.storia a {
+  color: #964b00;
+}
+
+.storia a:hover {
+  color: #fff;
+}
+
+/* Sezione: Geografia */
+
+.geografia {
+  background-color: #bbb;
+}
+
+.geografia a {
+  color: #964b00;
+}
+
+.geografia a:hover {
+  color: #fff;
+}
+
+/* Sezione: Cultura */
+
+.cultura {
+  background-color: #aaa;
+}
+
+.cultura a {
+  color: #964b00;
+}
+
+.cultura a:hover {
+  color: #fff;
+}
+
+/* Sezione: Arte */
+
+.arte {
+  background-color: #999;
+}
+
+.arte a {
+  color: #964b00;
+}
+
+.arte a:hover {
+  color: #fff;
 }

@@ -1,49 +1,51 @@
-Certo, posso aggiungere più dettagli sui colori nel codice CSS. Ecco un esempio aggiornato:
-
-```css
-/* Stile generale del corpo del documento */
 body {
     font-family: Arial, sans-serif;
+    background-color: beige;
+    color: black;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Grigio chiaro */
 }
 
-/* Intestazione del sito web */
-.header {
-    background-color: #333; /* Grigio scuro */
-    color: #ffffff; /* Bianco */
-    padding: 10px;
+header {
+    background-color: grey;
+    color: beige;
     text-align: center;
+    padding: 20px;
 }
 
-/* Navigazione del sito web */
-.navbar {
+nav {
+    background-color: grey;
+    color: beige;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    background-color: #333; /* Grigio scuro */
+    display: flex;
+    justify-content: space-around;
 }
 
-.navbar li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.navbar li a {
-    color: #ffffff; /* Bianco */
+nav a {
     text-decoration: none;
+    color: beige;
+    font-weight: bold;
 }
 
-/* Contenuto principale del sito web */
-.main-content {
-    margin: 15px;
+main {
+    padding: 20px;
 }
 
-/* Piè di pagina del sito web */
-.footer {
-    background-color: #333; /* Grigio scuro */
-    color: #ffffff; /* Bianco */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: grey;
+    color: beige;
     text-align: center;
     padding: 10px;
     position: fixed;

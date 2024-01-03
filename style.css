@@ -1,138 +1,52 @@
+Certo, posso aggiungere più dettagli sui colori nel codice CSS. Ecco un esempio aggiornato:
+
+```css
+/* Stile generale del corpo del documento */
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #964b00;
-  background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Grigio chiaro */
 }
 
-h1 {
-  font-size: 24px;
-  font-weight: bold;
+/* Intestazione del sito web */
+.header {
+    background-color: #333; /* Grigio scuro */
+    color: #ffffff; /* Bianco */
+    padding: 10px;
+    text-align: center;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: bold;
+/* Navigazione del sito web */
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #333; /* Grigio scuro */
 }
 
-p {
-  margin-bottom: 10px;
+.navbar li {
+    display: inline;
+    margin-right: 20px;
 }
 
-img {
-  max-width: 100%;
+.navbar li a {
+    color: #ffffff; /* Bianco */
+    text-decoration: none;
 }
 
-a {
-  color: #964b00;
-  text-decoration: none;
+/* Contenuto principale del sito web */
+.main-content {
+    margin: 15px;
 }
 
-a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-}
-
-/* Sezione: Storia */
-
-.storia {
-  background-color: #ccc;
-}
-
-.storia a {
-  color: #964b00;
-}
-
-.storia a:hover {
-  color: #fff;
-}
-
-/* Sezione: Geografia */
-
-.geografia {
-  background-color: #bbb;
-}
-
-.geografia a {
-  color: #964b00;
-}
-
-.geografia a:hover {
-  color: #fff;
-}
-
-/* Sezione: Cultura */
-
-.cultura {
-  background-color: #aaa;
-}
-
-.cultura a {
-  color: #964b00;
-}
-
-.cultura a:hover {
-  color: #fff;
-}
-
-/* Sezione: Arte */
-
-.arte {
-  background-color: #999;
-}
-
-.arte a {
-  color: #964b00;
-}
-
-.arte a:hover {
-  color: #fff;
-}
-
-/* Tasti */
-
-.tasto {
-  display: inline-block;
-  width: 100px;
-  height: 50px;
-  background-color: #964b00;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.tasto:hover {
-  background-color: #ccc;
-}
-
-.storia .tasto {
-  background-color: #ccc;
-}
-
-.geografia .tasto {
-  background-color: #aaa;
-}
-
-.cultura .tasto {
-  background-color: #bbb;
-}
-
-.arte .tasto {
-  background-color: #999;
+/* Piè di pagina del sito web */
+.footer {
+    background-color: #333; /* Grigio scuro */
+    color: #ffffff; /* Bianco */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

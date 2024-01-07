@@ -23,7 +23,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Modifica per allineare gli elementi orizzontalmente */
+    justify-content: space-around; /* Allinea orizzontalmente gli elementi */
 }
 
 nav a {
@@ -46,6 +46,11 @@ section {
 object {
     width: 100%;
     height: 500px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
 }
 
 footer {

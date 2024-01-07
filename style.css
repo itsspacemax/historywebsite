@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: grey;
-    color: beige;
+    color: red; /* Cambia il colore del testo in rosso */
     text-align: center;
     padding: 20px;
 }
@@ -23,7 +23,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Allinea orizzontalmente gli elementi */
+    justify-content: space-around;
 }
 
 nav a {

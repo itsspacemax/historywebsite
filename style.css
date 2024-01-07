@@ -23,21 +23,13 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-nav li {
-    margin-right: 20px;
+    justify-content: space-around; /* Modifica per allineare gli elementi orizzontalmente */
 }
 
 nav a {
     text-decoration: none;
     color: beige;
     font-weight: bold;
-}
-
-/* Aggiunta di stili specifici per i link esterni */
-nav .external-link {
-    margin-right: 0; /* Rimuove il margine destro per l'elemento con la classe .external-link */
 }
 
 main {

@@ -22,17 +22,22 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Modifica per allineare gli elementi orizzontalmente */
+    display: flex;
 }
 
 nav li {
-    margin-right: 20px; /* Aggiunto margine tra gli elementi */
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: beige;
     font-weight: bold;
+}
+
+/* Aggiunta di stili specifici per i link esterni */
+nav .external-link {
+    margin-right: 0; /* Rimuove il margine destro per l'elemento con la classe .external-link */
 }
 
 main {
